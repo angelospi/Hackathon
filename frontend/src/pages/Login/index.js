@@ -10,8 +10,6 @@ export default function Login(){
     return(
         
         <div className="login-container">
-            <Header>
-            </Header>
             <section className="form">
             
             <img src={logo} alt="Logo Natura" />

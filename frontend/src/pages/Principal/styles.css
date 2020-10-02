@@ -1,0 +1,105 @@
+.principal-container{
+    width: 100%;
+    height: 200vh;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    background: #E5E5E5;
+}
+
+.principal-container section.form div.imagem_fundo{
+    position: absolute;
+    width: 1440px;
+    height: 529px;
+    left: 7px;
+    top: 104px;
+   
+}
+
+.principal-container section.form div.retangulo{
+    position: absolute;
+    width: 1076px;
+    height: 529px;
+    left: 7px;
+    top: 104px;
+}
+
+.principal-container section.form h1.titulo{
+    position: absolute;
+    left: 3.68%;
+    right: 43.89%;
+    top: 70px;
+    bottom: 84.73%;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 70px;
+    line-height: 82px;
+    letter-spacing: -1.5px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+}
+
+.principal-container section.form h1.descricao{
+    position: absolute;
+    width: 523px;
+    height: 141px;
+    left: 93px;
+    top: 368px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 35px;
+    
+    color: #FFFFFF;
+}
+
+.principal-container section.form div.descr_rfid h1.titulo_descr{
+
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 35px;
+    
+    color: #FD6B0D;
+}
+
+.principal-container section.form div.descr_rfid{
+
+    position: absolute;
+    width: 680px;
+    height: 287px;
+    left: 667px;
+    top: 750px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 33px;
+    text-align: center;
+
+    color: #434343;
+    
+}
+
+.principal-container section.form img.rfid{
+    position: absolute;
+    width: 612px;
+    height: 317px;
+    left: 27px;
+    top: 750px;
+}
+
+.principal-container span.negrito{
+    font-weight: bold;
+}
+

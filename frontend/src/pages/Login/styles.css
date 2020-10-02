@@ -22,7 +22,7 @@
 .login-container section.form  {
     
     width: 511px;
-    height: 650px;
+    height: 600px;
     left: 464px;
     top: 162px;
    
@@ -113,6 +113,4 @@
     font-weight: 500;
     color: rgba(255, 255, 255, 0.87);
 }
-.login-container header{
-    
-}
+
