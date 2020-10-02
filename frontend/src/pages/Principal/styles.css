@@ -103,3 +103,14 @@
     font-weight: bold;
 }
 
+.principal-container section.form div.caract_rfid{
+    position: absolute;
+    width: 1440px;
+    height: 388px;
+    left: 0px;
+    top: 1055px;
+
+    flex-direction: row;
+    background: #FFFFFF;
+}
+

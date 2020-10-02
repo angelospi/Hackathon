@@ -4,6 +4,11 @@ import logo from '../../assets/logo.svg'
 import imagem1 from '../../assets/image7.svg'
 import imagem2 from '../../assets/Rectangle23.svg'
 import imagem3 from '../../assets/image19.svg'
+import imagem4 from '../../assets/image8.svg'
+import imagem5 from '../../assets/image9.svg'
+import imagem6 from '../../assets/image12.svg'
+import imagem7 from '../../assets/image13.svg'
+
 
 
 import './styles.css';
@@ -45,6 +50,24 @@ export default function Principal(){
             </div>
 
             <img className='rfid' src={imagem3} alt="rfid" />
+
+            <div className="caract_rfid">
+                
+                <img src={imagem4} alt="agilidade" />
+                
+                
+                
+                <img src={imagem5} alt="conectividade" />
+                
+                
+                
+                <img src={imagem6} alt="otimizacao" />
+                
+                <img src={imagem7} alt="seguranca" />
+                
+                
+            </div>
+
             
             </section>
         </div>
