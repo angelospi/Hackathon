@@ -1,0 +1,187 @@
+.acesso-container{
+    width: 100%;
+    height: 200vh;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    background: #E5E5E5;
+}
+
+.acesso-container section.header img{
+    position: absolute;
+width: 143px;
+height: 79px;
+left: 0px;
+top: 15px;
+}
+
+.acesso-container div.header{
+    position: absolute;
+    width: 1440px;
+    height: 63px;
+    left: 0px;
+    top: 94px;
+    display: flex;
+    
+
+    flex-direction: row;
+
+    background: rgba(253, 187, 17, 0.76);
+}
+
+.acesso-container div.header h1.menu{
+    position: absolute;
+    width: 56px;
+    height: 19px;
+    left: 44px;
+    top: 20px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    text-align: center;
+    
+    color: #979797;
+}
+
+.acesso-container div.header h1.conf{
+    position: absolute;
+    width: 144px;
+    height: 19px;
+    left: 197px;
+    top: 20px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #979797;
+    
+}
+
+.acesso-container div.header h1.sair{
+    position: absolute;
+    width: 63px;
+    height: 36px;
+    left: 1250px;
+    top: 0px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 35px;
+    /* identical to box height */
+    
+    
+    color: #000000;
+    
+}
+
+.acesso-container h1.ola{
+    position: absolute;
+    width: 203px;
+    height: 27px;
+    left: 598px;
+    top: 206px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    
+    color: #000000;
+}
+
+.acesso-container section.corpo{
+    display: flex;
+    flex-direction: row;
+}
+
+.acesso-container div.hist{
+    position: absolute;
+    width: 276px;
+    height: 209px;
+    left: 72px;
+    top: 365px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    
+    background: #FD6B0D;
+}
+
+.acesso-container  div.sistema{
+    position: absolute;
+    width: 276px;
+    height: 209px;
+    left: 554px;
+    top: 365px;
+
+    align-items: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    
+    background: #FDBB11;
+}
+
+.acesso-container  div.perfil{
+    position: absolute;
+    width: 276px;
+    height: 209px;
+    left: 1036px;
+    top: 355px;
+
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    
+    background: #FD6B0D;
+}
+
+.acesso-container h1.hist{
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    
+    align-items: center;
+    margin-top: 0px;
+    text-align: center;
+    color: #FAFAFA;
+}
+
+.acesso-container img{
+    position: relative;
+    width: 118px;
+    height: 109px;
+    display: flex;
+    justify-content:center;
+    text-align: center;
+
+}
+
+
+
+
+
+
