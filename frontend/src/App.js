@@ -7,7 +7,7 @@ import Acesso from './pages/Acesso';
 
 function App() {
   return (
-    <Acesso/>
+    <Principal/>
   );
 }
 

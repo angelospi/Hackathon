@@ -114,3 +114,47 @@
     background: #FFFFFF;
 }
 
+.principal-container div.header{
+    position: absolute;
+    width: 1440px;
+    height: 100px;
+    left: 0px;
+    top: 0px;
+    display: flex;
+    
+
+    flex-direction: row;
+    background: #FFFFFF;
+}
+
+.principal-container div.header h1.sol{
+    margin-top:60px;
+    margin-left: 500px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 29px;
+
+    color: #434343;
+    background: #FFFFFF;
+}
+
+.principal-container div.header h1.header{
+    margin-top:60px;
+    margin-left: 70px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 29px;
+
+    color: #434343;
+    background: #FFFFFF;
+}
+
+
+
+

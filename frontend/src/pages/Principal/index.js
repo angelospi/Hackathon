@@ -18,6 +18,13 @@ export default function Principal(){
         
         <div className="principal-container">
             <section className="form">
+            <div className="header">
+                <img src={logo} alt="logo" /> 
+                <h1 className='sol'>A solução</h1>
+                <h1 className='header'>Motivos</h1>
+                <h1 className='header'>Entrar</h1>
+                <h1 className='header'>Lojas mais próximas</h1>
+            </div>
 
             <div className="imagem_fundo">
                 <img src={imagem1} alt="Fundo1" />
