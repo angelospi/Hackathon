@@ -59,18 +59,32 @@ export default function Principal(){
             <img className='rfid' src={imagem3} alt="rfid" />
 
             <div className="caract_rfid">
+                <div className='icon_rfid'>
+                <img className="img_rfid" src={imagem4} alt="agilidade" />
+                <h1 className="titulo_rfid">Agilidade</h1>
+                <h1 className="descr_icon">
+                Uma jornada com menos atrito e mais rápida, promovendo autonomia ao cliente
+                </h1>
+                </div>
                 
-                <img src={imagem4} alt="agilidade" />
+                <div className='icon_rfid'>
+                <img className="img_rfid" src={imagem5} alt="conectividade" />
+                <h1 className="titulo_rfid">Conectividade</h1>
+                <h1 className="descr_icon">Lojista e clientes sendo conectados através do sistema</h1>
+                </div>
                 
-                
-                
-                <img src={imagem5} alt="conectividade" />
-                
-                
-                
-                <img src={imagem6} alt="otimizacao" />
-                
-                <img src={imagem7} alt="seguranca" />
+                <div className='icon_rfid'>
+                <img className="img_rfid" src={imagem6} alt="otimizacao" />
+                <h1 className="titulo_rfid">Otimização</h1>
+                <h1 className="descr_icon">Otimizar o tempo e atendimento dentro das lojas</h1>
+                </div>
+
+                <div className='icon_rfid'>
+                <img className="img_rfid" src={imagem7} alt="seguranca" />
+                <h1 className="titulo_rfid">Segurança</h1>
+                <h1 className="descr_icon">Reduz o contato entre pessoas para evitar disseminação de doenças contagiosas</h1>
+
+                </div>
                 
                 
             </div>

@@ -110,6 +110,7 @@
     left: 0px;
     top: 1055px;
 
+    display: flex;
     flex-direction: row;
     background: #FFFFFF;
 }
@@ -117,7 +118,7 @@
 .principal-container div.header{
     position: absolute;
     width: 1440px;
-    height: 100px;
+    height: 103px;
     left: 0px;
     top: 0px;
     display: flex;
@@ -155,6 +156,53 @@
     background: #FFFFFF;
 }
 
+.principal-container div.icon_rfid{
+    margin-top: 120px;
+    width: 200px;
+    height: 250px;
+    margin-left: 115px;
+
+
+    display: flex;
+    flex-direction: column;
+    
+    text-align: center;
+    align-items: center;
+
+
+    background: #FFFFFF;
+
+}
+
+.principal-container section.form img.img_rfid{
+    margin-top: 20px;
+    width: 60px;
+    height: 42px;
+
+}
+
+.principal-container div.icon_rfid h1.descr_icon{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+
+    color: #979797;
+}
+
+.principal-container div.icon_rfid h1.titulo_rfid{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    /* identical to box height */
+    
+    
+    color: #FD6B0D;
+}
 
 
 
