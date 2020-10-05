@@ -8,6 +8,7 @@ import imagem4 from '../../assets/image8.svg'
 import imagem5 from '../../assets/image9.svg'
 import imagem6 from '../../assets/image12.svg'
 import imagem7 from '../../assets/image13.svg'
+import logobag from '../../assets/BAG5.png'
 
 
 
@@ -19,8 +20,9 @@ export default function Principal(){
         <div className="principal-container">
             <section className="form">
             <div className="header">
+                <img src={logobag} alt="Logo" />
                 <img src={logo} alt="logo" /> 
-                <h1 className='sol'>A solução</h1>
+                <h1 className='sol'>Solução</h1>
                 <h1 className='header'>Motivos</h1>
                 <h1 className='header'>Entrar</h1>
                 <h1 className='header'>Lojas mais próximas</h1>

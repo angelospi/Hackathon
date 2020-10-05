@@ -1,6 +1,7 @@
 import React from 'react';
 
 import logo from '../../assets/logo.svg'
+import logobag from '../../assets/BAG5.png'
 
 
 
@@ -11,7 +12,7 @@ export default function Login(){
         
         <div className="login-container">
             <section className="header">
-
+                <img src={logobag} alt="Logo" />
                 <img src={logo} alt="Logo" />
 
             </section>

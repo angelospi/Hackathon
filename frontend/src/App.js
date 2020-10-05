@@ -8,7 +8,7 @@ import Carrinho from './pages/Carrinho';
 
 function App() {
   return (
-    <Carrinho/>
+    <Login/>
   );
 }
 

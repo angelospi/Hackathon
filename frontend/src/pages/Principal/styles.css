@@ -127,9 +127,14 @@
     flex-direction: row;
     background: #FFFFFF;
 }
+.principal-container div.header img{
+    
+    width: 143px;
+    height: 70px;
+}
 
 .principal-container div.header h1.sol{
-    margin-top:60px;
+    margin-top:50px;
     margin-left: 500px;
 
     font-family: Roboto;
@@ -143,8 +148,8 @@
 }
 
 .principal-container div.header h1.header{
-    margin-top:60px;
-    margin-left: 70px;
+    margin-top:50px;
+    margin-left: 60px;
 
     font-family: Roboto;
     font-style: normal;

@@ -184,12 +184,23 @@
     color: #000000;
     
 }
-.login-container section.header img{
+.login-container section.header {
     position: absolute;
-width: 143px;
-height: 79px;
-left: 0px;
-top: 15px;
+    width: 1440px;
+    height: 103px;
+    left: 0px;
+    top: 0px;
+    display: flex;
+    
+
+    flex-direction: row;
+    background: #FFFFFF;
+}
+
+.login-container section.header img{
+    margin-top: 20px;
+    width: 143px;
+    height: 70px;
 }
 
 

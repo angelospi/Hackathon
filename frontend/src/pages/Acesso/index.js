@@ -4,13 +4,15 @@ import logo from '../../assets/logo.svg'
 import hist from '../../assets/icon_hist.svg'
 import sistema from '../../assets/icon_sis.svg'
 import perfil from '../../assets/icon_perfil.svg'
+import logobag from '../../assets/BAG5.png'
+
 
 export default function Acesso(){
     return(
         
         <div className="acesso-container">
             <section className="header">
-
+            <img src={logobag} alt="Logo" />
             <img src={logo} alt="Logo" />
             
             </section>
