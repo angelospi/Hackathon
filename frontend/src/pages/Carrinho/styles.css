@@ -1,0 +1,268 @@
+.carrinho-container{
+    width: 100%;
+    height: 200vh;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+
+    background: #E5E5E5;
+}
+.carrinho-container section.header{
+    flex-direction: ro;
+}
+
+.carrinho-container div.header{
+    position: absolute;
+    width: 1440px;
+    height: 63px;
+    left: 0px;
+    top: 94px;
+    display: flex;
+    
+
+    flex-direction: row;
+
+    background: rgba(253, 187, 17, 0.76);
+}
+
+.carrinho-container div.header h1.menu{
+    position: absolute;
+    width: 56px;
+    height: 19px;
+    left: 44px;
+    top: 20px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    text-align: center;
+    
+    color: #979797;
+}
+
+.carrinho-container div.header h1.conf{
+    position: absolute;
+    width: 144px;
+    height: 19px;
+    left: 197px;
+    top: 20px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #979797;
+    
+}
+
+.carrinho-container div.header h1.sair{
+    position: absolute;
+    width: 63px;
+    height: 36px;
+    left: 1250px;
+    top: 0px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 35px;
+    /* identical to box height */
+    
+    
+    color: #000000;
+    
+}
+.carrinho-container section.header img{
+
+width: 143px;
+height: 79px;
+
+}
+
+.carrinho-container section.fila{
+    margin-left: 70px;
+    width: 500px;
+    margin-top: 200px;
+    background: #ffffff;
+}
+.carrinho-container section.fila div.cliente h1.preco{
+
+    margin-left: 300px;
+    
+}
+.carrinho-container section.fila h1{
+    
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 10px;
+
+    color: #000000;
+}
+.carrinho-container section.fila div.cliente h1.posicao{
+    margin-left: 400px;
+    
+}
+
+.carrinho-container section.fila div.cliente {
+
+    
+    border: 1px solid #FDBB11;
+    box-sizing: border-box;
+    
+}
+
+.carrinho-container section.fila div.fila{
+    display:flex;
+    
+    align-items: center;
+    height: 100px;
+
+    border: 1px solid #FD6B0D;
+    box-sizing: border-box;
+    background: #FD6B0D;
+}
+.carrinho-container section.fila div.fila h1{
+    margin-left: 100px;
+    color: #ffffff;
+}
+
+.carrinho-container section.body section.carrinho {
+    margin-left: 140px;
+    width: 500px;
+    margin-top: 200px;
+    background: #ffffff;
+}
+
+.carrinho-container section.body{
+    display: flex;
+    flex-direction: row;
+}
+
+.carrinho-container section.body  div.cabecalho{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    flex-direction: column;
+
+    border: 1px solid #FD6B0D;
+    box-sizing: border-box;
+    background: rgba(253, 187, 17, 0.76);
+}
+
+.carrinho-container section.body  div.cabecalho h1{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 0px;
+
+color: #000000;
+}
+
+.carrinho-container section.body div.produtos{
+    display:flex;
+    height: 150px;
+    flex-direction: column;
+
+    border: 1px solid #EE0202;
+    box-sizing: border-box;
+}
+
+.carrinho-container section.body div.produtos div.nome{
+    display: flex;
+    margin-top: 0px;
+    width: 500px;
+    height: 40px;
+
+    align-items: center;
+
+    background: #FD6B0D;
+
+}
+
+.carrinho-container section.body div.produtos h1.nome{
+    position: absolute;
+width: 359px;
+height: 23px;
+left: 800px;
+top: 440px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 18px;
+
+color: #000000;
+}
+.carrinho-container section.body div.produtos h1{
+
+margin-left: 60px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 15px;
+line-height: 18px;
+
+color: #000000;
+}
+
+.carrinho-container section.body div.produtos h1.preco{
+    margin-left: 300px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    
+    color: #000000;
+    }
+.carrinho-container section.body div.produtos button{
+    position: absolute;
+    top:495px;
+    left: 1120px;
+    width: 93px;
+    height: 32px;
+
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 15px;
+/* identical to box height */
+
+
+    color: #000000; 
+    background: #FD6B0D;
+    border-radius: 4px;
+}
+
+.carrinho-container section.body div.produtos img.kaiak{
+    position: absolute;
+    margin-top:40px;
+}
+
+.carrinho-container section.body div.cabecalho img.icone_carr{
+    position: absolute;
+    margin-top: 0px;
+    left: 740px ;
+
+}
+

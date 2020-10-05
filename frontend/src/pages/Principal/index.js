@@ -57,8 +57,10 @@ export default function Principal(){
             </div>
 
             <img className='rfid' src={imagem3} alt="rfid" />
-
+            
+           
             <div className="caract_rfid">
+            
                 <div className='icon_rfid'>
                 <img className="img_rfid" src={imagem4} alt="agilidade" />
                 <h1 className="titulo_rfid">Agilidade</h1>

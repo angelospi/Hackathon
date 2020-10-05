@@ -10,6 +10,19 @@ export default function Login(){
     return(
         
         <div className="login-container">
+            <section className="header">
+
+                <img src={logo} alt="Logo" />
+
+            </section>
+            
+            <div className='header'>
+           
+                <h1 className='menu'>MENU</h1>
+                <h1 className='conf'>CONFIGURAÇÕES</h1>
+                <h1 className='sair'>Sair</h1>
+            </div>
+
             <section className="form">
             
             <img src={logo} alt="Logo Natura" />
