@@ -3,7 +3,7 @@ import React from 'react';
 import logo from '../../assets/logo.svg'
 import imagem1 from '../../assets/image7.svg'
 import imagem2 from '../../assets/Rectangle23.svg'
-import imagem3 from '../../assets/image19.svg'
+import imagem3 from '../../assets/rfid1.svg'
 import imagem4 from '../../assets/image8.svg'
 import imagem5 from '../../assets/image9.svg'
 import imagem6 from '../../assets/image12.svg'
@@ -25,7 +25,7 @@ export default function Principal(){
                 <h1 className='sol'>Solução</h1>
                 <h1 className='header'>Motivos</h1>
                 <h1 className='header'>Entrar</h1>
-                <h1 className='header'>Lojas mais próximas</h1>
+                
             </div>
 
             <div className="imagem_fundo">
@@ -40,7 +40,7 @@ export default function Principal(){
                     Solução com Tecnologia
             </h1>
             <h1 className="descricao">
-            Oferecemos o uso de <span class="negrito">Tecnologia</span> para 
+            Ofereçemos o uso de <span class="negrito">Tecnologia</span> para 
             nossos serviços, com mais <span class="negrito">qualidade </span>  
             e uma experiência <span class="negrito">única</span> e <span class="negrito">inovadora</span> para nossos clientes.
             </h1>
@@ -48,13 +48,13 @@ export default function Principal(){
 
             <div className="descr_rfid">
                 <h1 className="titulo_descr">
-                    AUTONOMIA + CONFORTO + INOVAÇÃO 
+                    + AUTONOMIA + CONFORTO + INOVAÇÃO 
                 </h1>
                 <h1 className="decr_rfid">
                 Visando trazer mais bem estar aos clientes no retorno das compras presenciais, 
                 criamos uma solução para a jornada de compra do consumidor.<br></br>
                 Uma tecnologia simples com sensores que agilizará o atendimento aos 
-                clientes, com conectividade, otimização de tempo e mais segurança
+                clientes, com conectividade, otimização de tempo e mais segurança.
                 </h1>
             </div>
 
@@ -74,7 +74,7 @@ export default function Principal(){
                 <div className='icon_rfid'>
                 <img className="img_rfid" src={imagem5} alt="conectividade" />
                 <h1 className="titulo_rfid">Conectividade</h1>
-                <h1 className="descr_icon">Lojista e clientes sendo conectados através do sistema</h1>
+                <h1 className="descr_icon">Lojista e clientes sendo conectados através do sistema integrado</h1>
                 </div>
                 
                 <div className='icon_rfid'>
@@ -86,7 +86,7 @@ export default function Principal(){
                 <div className='icon_rfid'>
                 <img className="img_rfid" src={imagem7} alt="seguranca" />
                 <h1 className="titulo_rfid">Segurança</h1>
-                <h1 className="descr_icon">Reduz o contato entre pessoas para evitar disseminação de doenças contagiosas</h1>
+                <h1 className="descr_icon">Reduz o contato entre pessoas para evitar disseminação de doenças contagiosas e furtos</h1>
 
                 </div>
                 

@@ -62,7 +62,7 @@
 
 .principal-container section.form div.descr_rfid h1.titulo_descr{
 
-    
+    margin-top:0px;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
@@ -96,7 +96,7 @@
     width: 612px;
     height: 317px;
     left: 27px;
-    top: 750px;
+    top: 700px;
 }
 
 .principal-container span.negrito{
@@ -135,7 +135,7 @@
 
 .principal-container div.header h1.sol{
     margin-top:50px;
-    margin-left: 500px;
+    margin-left: 650px;
 
     font-family: Roboto;
     font-style: normal;

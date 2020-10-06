@@ -1,13 +1,15 @@
 import React from 'react';
+import { useHistory } from "react-router-dom";
 
 import logo from '../../assets/logo.svg'
 import logobag from '../../assets/BAG5.png'
-
-
+import {Link} from 'react-router-dom';
 
 import './styles.css';
 
 export default function Login(){
+    const history = useHistory();
+
     return(
         
         <div className="login-container">
@@ -38,7 +40,7 @@ export default function Login(){
 
                 <input placeholder=""/>
 
-                <button className ="submit" type="submit">ENTRAR</button>
+                <button className ="submit" type="submit" onClick={()=>history.push('/acesso')} >ENTRAR</button>
 
                 <button className ="cadastrar" type="cadastrar">CADASTRAR</button>
             </form>

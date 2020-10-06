@@ -26,12 +26,13 @@
     background: rgba(253, 187, 17, 0.76);
 }
 
-.carrinho-container div.header h1.menu{
+.carrinho-container div.header a.menu{
     position: absolute;
     width: 56px;
     height: 19px;
     left: 44px;
-    top: 20px;
+    top: 30px;
+    text-decoration:none;
     
     font-family: Roboto;
     font-style: normal;
@@ -142,6 +143,7 @@ height: 79px;
 .carrinho-container section.body section.carrinho {
     margin-left: 140px;
     width: 500px;
+    height: 100px;
     margin-top: 200px;
     background: #ffffff;
 }
@@ -265,4 +267,12 @@ color: #000000;
     left: 740px ;
 
 }
+
+.carrinho-container img.grupo{
+    margin-left: 0px;
+    
+    
+
+}
+
 

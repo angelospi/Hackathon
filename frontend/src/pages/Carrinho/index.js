@@ -5,6 +5,7 @@ import perfume from '../../assets/KAIAK1.svg'
 import icone1 from '../../assets/image17.svg'
 import icone2 from '../../assets/image6.svg'
 import logobag from '../../assets/BAG5.png'
+import grupo from '../../assets/Group_14.svg'
 
 
 import './styles.css';
@@ -20,7 +21,7 @@ export default function Login(){
             </section>
 
             <div className='header'>
-                <h1 className='menu'>MENU</h1>
+                <a className='menu' href="/principal">MENU</a>
                 <h1 className='conf'>CONFIGURAÇÕES</h1>
                 <h1 className='sair'>Sair</h1>
             </div>
@@ -39,7 +40,7 @@ export default function Login(){
                     R$79,90
                 </h1>
                 <h1 className="posicao">
-                    1
+                    1º
                 </h1>
             </div>
             <div className="cliente">
@@ -47,10 +48,10 @@ export default function Login(){
                     Mayara Pereira
                 </h1>
                 <h1 className="preco">
-                    R$49,99
+                    R$177,00
                 </h1>
                 <h1 className="posicao">
-                    2
+                    2º
                 </h1>
             </div>
             <div className="cliente">
@@ -61,18 +62,18 @@ export default function Login(){
                     R$149,99
                 </h1>
                 <h1 className="posicao">
-                    3
+                    3º
                 </h1>
             </div>
             <div className="cliente">
                 <h1>
-                    Clarisse
+                    Clarisse Almeida
                 </h1>
                 <h1 className="preco">
                     R$203,59
                 </h1>
                 <h1 className="posicao">
-                    4
+                    4º
                 </h1>
             </div>
             <div className="cliente">
@@ -83,35 +84,20 @@ export default function Login(){
                     R$82,99
                 </h1>
                 <h1 className="posicao">
-                    5
+                    5º
                 </h1>
             </div>
 
             </section>
 
             <section className="carrinho">
-                <div className="cabecalho">
-                    <img className="icone_carr" src={icone2} alt="Logo" />
-                    <h1>Carrinho de compras</h1>
-                    <h1>Descrição dos produtos</h1>
-                </div>
-            
 
-                <div className="produtos">
-                    <div className="nome">
-                        <h1>Angelo Spinardi Netto</h1>
-                    </div>
-                    <img className="kaiak" src={perfume} alt="Logo" />
-                    <h1>1 X</h1>
-                    <h1 className="nome">Desodorante Colônia Kaiak Pulso Masculino - 100ml</h1>
-                    <h1 className="preco">R$79,90</h1>
-                    <button >PAGAR</button>
-                </div>
-                </section>
+            <img className="grupo" src={grupo} alt="Logo"/>
+                
+            </section>
+                
             </section>
             </div>
-
-            
            
     );
 }

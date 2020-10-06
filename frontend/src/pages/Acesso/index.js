@@ -28,14 +28,15 @@ export default function Acesso(){
             <section classname='corpo'>
             <div className='hist'>
             <h1 className='hist'>HISTÓRICO DE VENDAS</h1>
-            
             <img src={hist} alt="Icone" />
+
             </div>
 
             <div className='sistema'>
             <h1 className='hist'>SISTEMA INTEGRADO</h1>
 
             <img src={sistema} alt="Icone_sis" />
+
             </div>
 
             <div className='perfil'>
